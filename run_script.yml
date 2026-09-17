@@ -1,0 +1,11 @@
+name: HELLO WORLD
+
+jobs:
+  run:
+    runs-on: self-hosted
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Python
+        run: python DEV/hello_world_py
